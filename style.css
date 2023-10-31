@@ -21,3 +21,22 @@
   color: #fff;
   border-radius: 100px;
 }
+
+.flip-button {
+  width: 200px;
+  height: 80px;
+  background-color: #fff;
+  padding: 0.5rem 1rem;
+  border: 2px solid #000;
+  font-size: 3rem;
+
+}
+
+.flip-button:hover {
+  box-shadow: 0 10px 0 -2px;
+}
+
+.flip-button:active {
+  transform: translateY(10px);
+  box-shadow: none;
+}
