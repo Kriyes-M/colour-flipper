@@ -12,3 +12,12 @@
   text-align: center;
   height: 200px;
 }
+
+.color-info {
+  background-color: #1f1f1f;
+  padding: 1rem 2rem;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 100px;
+}
