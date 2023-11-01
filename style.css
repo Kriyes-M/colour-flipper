@@ -29,11 +29,12 @@
   padding: 0.5rem 1rem;
   border: 2px solid #000;
   font-size: 3rem;
-
+  box-shadow: 0 10px 0 -2px;
 }
 
 .flip-button:hover {
-  box-shadow: 0 10px 0 -2px;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 0 -2px;
 }
 
 .flip-button:active {
