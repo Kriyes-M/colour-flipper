@@ -25,4 +25,4 @@ function generateHex() {
   return hexValue;
 }
 
-flipButtonClicked();
+flipButton.addEventListener('click', flipButtonClicked);
