@@ -12,7 +12,6 @@ function flipButtonClicked() {
 function updateElementColors(color) {
   body.style.backgroundColor = color;
   colorHex.style.color = color;
-  flipButton.style.backgroundColor = color;
 }
 
 function generateHex() {
