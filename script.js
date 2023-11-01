@@ -4,6 +4,12 @@ const flipButton = document.getElementById('flipButton');
 
 const hexChars = '0123456789ABCDEF';
 
+function updateElementColors(color) {
+  body.style.backgroundColor = color;
+  colorHex.style.color = color;
+  flipButton.style.backgroundColor = color;
+}
+
 function generateHex() {
   let hexValue = '#';
 
