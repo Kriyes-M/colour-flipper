@@ -20,11 +20,11 @@ h1 {
 .wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   text-align: center;
-  height: 200px;
-  margin-top: 30vh;
+  height: 250px;
+  margin-top: 25vh;
 }
 
 .color-info {
@@ -34,6 +34,7 @@ h1 {
   font-weight: 700;
   color: #fff;
   border-radius: 100px;
+  margin: 2rem;
 }
 
 .flip-button {
@@ -54,4 +55,10 @@ h1 {
 .flip-button:active {
   transform: translateY(10px);
   box-shadow: none;
+}
+
+@media (max-width: 800px) {
+  .color-info {
+    font-size: 2rem;
+  }
 }
